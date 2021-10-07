@@ -14,6 +14,7 @@ export const Entry = () => {
 
     const handleOnChange= e  => {
         const {name, value}=e.target
+        
         switch (name) {
             case 'email':
                 setEmail(value)
@@ -52,7 +53,7 @@ export const Entry = () => {
         <div className= 'entry-page bg-info' >
             
             <div className='form-box bg-light p-5'>
-            {formLoad==='login' && 
+            {formLoad==='login' && (
                 <LoginForm 
                 handleOnChange={handleOnChange}
                 handleOnSubmit={handleOnSubmit}
@@ -60,16 +61,16 @@ export const Entry = () => {
                 email={email}
                 pass={password}
                 />
-            }
+            )}
                 
-            {formLoad==='reset' && 
+            {formLoad==='reset' && (
                 <ResetPassword
                 handleOnChange={handleOnChange}
                 handleOnResetSubmit={handleOnResetSubmit}
                 formSwitcher={formSwitcher}
                 email={email}
                 />
-            } 
+            )} 
             </div>
               
             

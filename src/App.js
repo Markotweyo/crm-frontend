@@ -1,13 +1,15 @@
 import React from 'react'
 import './App.css';
-import {Button} from 'react-bootstrap'
+import { DefaultLayout } from './layout/DefaultLayout';
+
 import { Entry } from './pages/entry/Entry.page';
 
 function App() {
   return (
     <div className="App">
-      <Button> Hello </Button>
-      <Entry />
+      
+      {/*<Entry />*/}
+      <DefaultLayout/>
     </div>
   );
 }
