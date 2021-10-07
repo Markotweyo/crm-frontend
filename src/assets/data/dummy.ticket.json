@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "subject":"SSL issue",
+        "status": "Client waiting response",
+        "addedDate": "2021-10-10"
+    },
+    {
+        "id": 2,
+        "subject":"BGP gateway port configuration",
+        "status": "Escalated to network infrastructure department",
+        "addedDate": "2021-10-12"
+    },
+    {
+        "id": 3,
+        "subject":"SSL issue",
+        "status": "Engineers enroute to site for restoration",
+        "addedDate": "2021-10-11"
+    }
+]
