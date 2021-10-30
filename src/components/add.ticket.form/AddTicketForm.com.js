@@ -76,5 +76,5 @@ AddTicketForm.propTypes= {
     handleOnSubmit: PropTypes.func.isRequired,
     frmData: PropTypes.object.isRequired,
     setFrmData: PropTypes.func.isRequired,
-    frmDataErro: PropTypes.func.isRequired,
+    frmDataErro: PropTypes.object.isRequired,
 }
