@@ -3,7 +3,24 @@
         "id": 1,
         "subject":"SSL issue",
         "status": "Client waiting response",
-        "addedDate": "2021-10-10"
+        "addedDate": "2021-10-10",
+        "history": [
+            {
+                "date":"20-10-10",
+                "message":"What is your expected uptime?",
+                "messageBy": "client"
+            },
+            {
+                "date":"20-10-10",
+                "message":"Issue cleared",
+                "messageBy": "Operarator"
+            },
+            {
+                "date":"20-10-10",
+                "message":"Thank you",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id": 2,
