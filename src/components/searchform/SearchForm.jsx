@@ -29,5 +29,5 @@ export default SearchForm
 
 SearchForm.propTypes = {
     handleOnChange: PropTypes.func.isRequired,
-    str:PropTypes.string.isRequired,
+    str: PropTypes.string.isRequired,
 }
